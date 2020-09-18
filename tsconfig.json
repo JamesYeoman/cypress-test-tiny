@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "moduleResolution": "node",
+      "lib": ["dom","es6"],
+      "strict": true,
+      "types": [
+        "cypress",
+        "node"
+      ],
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "allowSyntheticDefaultImports": true,
+      "forceConsistentCasingInFileNames": true,
+      "noEmit": true,
+      "allowUmdGlobalAccess": true,
+      "allowJs": true
+    },
+    "include": [
+      "node_modules/cypress",
+      "cypress/**/*.ts"
+    ]
+  }
+  
